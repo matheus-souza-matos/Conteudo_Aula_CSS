@@ -1,0 +1,38 @@
+body {
+    background-color: burlywood;
+}
+
+.ex1 {
+    border: 6px solid white;
+}
+
+.ex2 {
+    border: 6px solid rgb(255, 255, 255);
+}
+
+.ex3 {
+    border: 6px dotted olive;
+}
+
+.ex4 {
+    border: 6px dotted rgb(128, 128, 0);
+    border-width: thick;
+}
+
+.ex5 {
+    border: solid rgb(0, 0, 0);
+    border-width: 20px 10px;
+    border-color: blue orange pink red;
+}
+
+.ex6 {
+    border-top-style: solid;
+    border-right-style: dotted;
+    border-left-style: double;
+    border-bottom-style: dashed;
+}
+
+.ex7 {
+    border: 6px solid seagreen;
+    border-radius: 20px;
+}
