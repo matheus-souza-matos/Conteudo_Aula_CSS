@@ -1,0 +1,15 @@
+body{
+    background-color:darkseagreen;
+    justify-items: center;
+}
+
+.el1 {
+    background-color: aqua;
+    width: 500px;
+}
+.ex1 {
+    background-color: rgb(3, 202, 69);
+    width: 500px;
+    box-sizing: border-box;
+    padding: 50px;
+}
