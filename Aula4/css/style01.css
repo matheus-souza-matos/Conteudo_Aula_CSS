@@ -1,0 +1,46 @@
+body {
+    background-color: bisque;
+}
+
+.link:link {
+   color: black;
+   background-color: beige;
+}
+
+.link:visited {
+    color: rgb(27, 190, 182);
+    background-color: black;
+}
+
+.link:hover {
+    color: rgb(0, 255, 170);
+    background-color: brown;
+}
+
+.link:active {
+    color: aliceblue;
+    background-color: coral;
+}
+
+/* * {
+    cursor: url(../img/rbr.png), auto;
+} */
+
+.btnLink:link, .btnLink:visited {
+    /* background-color: midnightblue; */
+    background-color: transparent;
+    border: 3px solid midnightblue;
+    color: darkblue;
+    padding: 20px 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    display: inline-block;
+}
+
+.btnLink:hover, .btnLink:active{
+    background-color: midnightblue;
+    color: white;
+    border: 3px solid white;
+    transition: .2s;
+}
