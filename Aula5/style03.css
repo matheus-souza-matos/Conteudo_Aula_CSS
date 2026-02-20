@@ -1,0 +1,119 @@
+body {
+    background-color: indigo;
+    color: white;
+}
+
+.ex1 {
+    display: flex;
+    height: 200px;
+    align-items: center;
+    gap: 30px;
+    background-color: mediumpurple;
+}
+
+.ex1 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.ex2 {
+    display: flex;
+    height: 200px;
+    align-items: flex-start;
+    gap: 30px;
+    background-color: mediumpurple;
+}
+
+.ex2 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.ex3 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    gap: 30px;
+    background-color: mediumpurple;
+}
+
+.ex3 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.ex4 {
+    display: flex;
+    height: 200px;
+    align-items: stretch;
+    gap: 30px;
+    background-color: mediumpurple;
+}
+
+.ex4 div {
+    width: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.ex5 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: center;
+    gap: 30px;
+    background-color: mediumpurple;
+}
+
+.ex5 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+
+.ex6 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    align-content: space-between;
+    gap: 30px;
+    background-color: rgb(191, 176, 221);
+}
+
+.ex6 div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
+.ex7 {
+    display: flex;
+    flex-wrap: wrap;
+    height: 400px;
+    justify-content: center;
+    align-content: center;
+    gap: 30px;
+    background-color: rgb(191, 176, 221);
+}
+
+.ex7 div {
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    text-align: center;
+    background-color: #fff;
+    color: darkorchid;
+}
