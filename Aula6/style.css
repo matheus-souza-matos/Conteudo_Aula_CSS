@@ -1,0 +1,111 @@
+body {
+    background-color:blueviolet ;
+}
+
+/* Exemplo de Flex Items - Order */
+.ex1{
+    display: flex;
+    background-color: pink;
+    gap: 30px;
+}
+
+.ex1 div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+/* Exemplo de Flex Items - Flex-Grow */
+.ex2{
+    display: flex;
+    background-color: pink;
+    gap: 30px;
+}
+
+.ex2 div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+/* Exemplo de Flex Items -  flex shrink*/
+.ex3{
+    display: flex;
+    background-color: pink;
+    gap: 30px;
+}
+
+.ex3 div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+/* Exemplo de Flex Items -  flex basis*/
+.ex4{
+    display: flex;
+    background-color: pink;
+    gap: 30px;
+}
+
+.ex4 div {
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background-color: darkgoldenrod;
+}
+
+/* Exemplo de align-self - center */
+.ex5{
+    display: flex;
+    background-color: pink;
+    height: 200px;
+    gap: 30px;
+}
+
+.ex5 div {
+    text-align: center;
+    width: 100px;    
+    background-color: darkgoldenrod;
+}
+
+.ex5 #it1{
+    background-color: aliceblue;
+    height: 100px;
+    align-self: center;
+}
+
+/* Exemplo de align-self - flex - end e start */
+.ex6{
+    display: flex;
+    background-color: pink;
+    height: 200px;
+    gap: 30px;
+}
+
+.ex6 div {
+    text-align: center;
+    width: 100px;    
+    background-color: darkgoldenrod;
+}
+
+.ex6 #item1{
+    background-color: aliceblue;
+    height: 100px;
+    align-self: flex-start;
+}
+
+.ex6 #item2{
+    background-color: aliceblue;
+    height: 100px;
+    align-self: flex-end;
+}
+
+.ex6 #item3{
+    background-color: aliceblue;
+    height: 100px;
+    align-self: center;
+}
