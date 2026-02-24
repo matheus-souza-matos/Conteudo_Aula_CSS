@@ -1,0 +1,82 @@
+body {
+    background-color: darkkhaki;
+    color: ghostwhite;
+    font-family: sans-serif;
+}
+
+
+/* exemplo de grid-column-start e grid-column-end */
+.ex1 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    background-color: brown;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex1 div {
+    height: 100px;
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+}
+
+.itm1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
+/* exemplo de grid-row-start e grid-row-end */
+.ex2 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: brown;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex2 div {
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+}
+
+#itm1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+
+
+/* exemplo de grid-row-start e grid-row-end */
+/* exemplo de grid-column-start e grid-column-end */
+.ex3 {
+    height: 500px;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    background-color: brown;
+    gap: 0px 10px;
+    justify-content: center;
+    align-content: space-evenly;
+}
+
+.ex3 div {
+    background-color: orangered;
+    text-align: center;
+    align-content: center;
+}
+
+#item1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
